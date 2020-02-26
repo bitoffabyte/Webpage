@@ -103,14 +103,7 @@ hr{
     line-height: 24px;
     margin: 0 0 30px 0;
   }
-  
-  .imag {
-    height: 50%;
-    width: 50%;
-    background: url("a.jfif") ;
-    background-position: left;
-    background-size: cover;
-  }
+
   div.tc {
     margin: 60px 45px 55px;
   }
@@ -119,10 +112,10 @@ hr{
       flex-direction: row;
       width: 100%;
     }
-    div.imag {
-        height: 100%;
-        min-width: 100%;
-      }
+    .imag {
+      height: 50%;
+      width: 50%;
+    }
    div.tc {
       margin: 0 60px;
       max-width: 660px;
@@ -147,4 +140,10 @@ hr{
   ::-webkit-scrollbar-thumb {
     background: aqua;/*change thois for the color of the scroll bar*/
     border-radius: 1px;
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .imag{
+
+    }
   }
