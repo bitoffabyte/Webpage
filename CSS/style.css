@@ -3,7 +3,7 @@
     box-sizing: content-box;
   }
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 body {
 	margin: 0;
@@ -106,6 +106,8 @@ hr{
     font-weight: 300;
     line-height: 24px;
     margin: 0 0 30px 0;
+    font-family: 'EB Garamond', ;
+
   }
 
   div.tc {
