@@ -1,5 +1,6 @@
 * {
     transition: .33s ease all;
+    scroll-behavior: smooth;
     box-sizing: content-box;
   }
 body{
