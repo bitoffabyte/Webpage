@@ -105,8 +105,8 @@ hr{
   }
   
   .imag {
-    height: 100%;
-    width: 35%;
+    height: 50%;
+    width: 50%;
     background: url("a.jfif") ;
     background-position: left;
     background-size: cover;
