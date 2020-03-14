@@ -1,6 +1,4 @@
-
-
-        /*CSS for Off-Canvas*/
+  /*CSS for Off-Canvas*/
 
         *, *::after, *::before {
     transition: .33s ease all;
@@ -34,15 +32,15 @@ main {
   transition: .9s;
 }
 
-.nav-open main {
+/*.nav-open main {
   transform: scale(.8);
-}
+}*/
 
 .intro {
   height: 100vh;
   width: 100%;
   display: table;
-  background:white url('Images/ab.jpg') no-repeat center center ;
+  background:white url('CSS/Images/ab.jpg') no-repeat center center ;
   background-size: cover;
   transition: .33s ease all;
   border-radius:2px;
@@ -54,8 +52,6 @@ h1
   color: inherit;
   font-family: "Quicksand", sans-serif;
     font-size: 36px;
-  
-    
 }
 
 .nav-trigger 
@@ -271,7 +267,7 @@ ul {
     margin: 0 auto;
     background: #322f30;
     color: #fff;
-    height: 180px;
+    height: 183px;
 }
 .social-icon {
     color: #fff;
@@ -389,10 +385,10 @@ hr{
 }
 @media only screen and (max-width: 760px) {
   
-  .intro
+  /* .intro
   {
     background-size: contain;
-  }
+  } */
 }
 .wrapper
 {
@@ -461,6 +457,3 @@ hr{
   
 
 }
-
-
-
