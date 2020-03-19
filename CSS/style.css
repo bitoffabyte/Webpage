@@ -49,8 +49,9 @@ main {
   height: 100vh;
   width: 100%;
   display: table;
-  background:white url('Images/aaa.jpg') ;
+  background:white url('Images/Bg\ Dark.png') ;
   background-size: cover;
+	background-repeat : no-repeat;
   transition: .33s ease all;
   border-radius:2px;
 }
