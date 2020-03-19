@@ -25,10 +25,10 @@ body,html {
   top: 50%;
   left: 50%;
   transform: translate(-50% , -50%);
-  background: url('Images/RoboVITics-Logo.png') no-repeat center center ;
+  background: url('Images/white\ logo.png') no-repeat center center ;
   background-size: 70%;
   position: absolute;
-  height: 25%;
+  height: 30%;
   width: 100%;
   
 }
@@ -243,23 +243,9 @@ h1
         width: 50%;
         transition: .33s ease all
     }
-    body
-    {
-      
-      overflow-x: hidden;
-    }
-
-  
 }
-
         /*CSS for social media icons*/
-       
-       /* body {
-    font-family: "Quicksand", sans-serif;
-    color: #FFF;
-    background: ;
-    
-}*/
+
 a {
     text-decoration: none;
     color: #fff;
@@ -388,19 +374,10 @@ ul.social-icons {
     border-radius: 1px;
   }
         /*CSS for Cards*/
-        
-        
 hr{
     border: 2px solid rgb(3, 168, 245);
 	  border-radius: 0.08px;
     width:70%;
-}
-@media only screen and (max-width: 760px) {
-  
-  .intro
-  {
-    background-size: contain;
-  }
 }
 .wrapper
 {
@@ -429,7 +406,7 @@ hr{
 }
 
 .card_left {
-	width: 90%;
+	/* width: 90%; */
 }
 
 .card_datails {
@@ -459,18 +436,16 @@ hr{
     flex-direction:column;
     
   }
+  .card_right img {
+    height: 250px;
+    border-radius: 15px;
+  }
   .wrapper
   {
     padding-left: 10%;
     padding-right: 10%;
   }
-  
-
 }
-
-
-
-
 .grid {
   display: flex;                    
   flex-wrap: wrap;
