@@ -352,7 +352,8 @@ ul {
     margin: 0 auto;
     background: #322f30;
     color: #fff;
-    height: 180px;
+    height: 400px;
+text-align: center;
 }
 .social-icon {
     color: #fff;
