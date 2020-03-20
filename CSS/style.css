@@ -80,7 +80,19 @@
   transform: rotateY(180deg) translateX(100%);
   cursor: pointer;
 }
-
+@media only screen and (max-width: 760px)
+{
+  .card_flip
+  {
+    height: 200px;
+    width: 300px;
+  }
+  .container_flip
+  {
+    height: 200px;
+    width: 300px;
+  }
+}
 
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
