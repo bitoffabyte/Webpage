@@ -507,7 +507,7 @@ hr{
 		margin-top: 20px;
 		position: relative;
 		width: 50%;
-		height: 1%;
+		height: 10%;
 		padding-bottom: 28%;
 	  user-select: none;
 		background-color: rgba(3, 168, 245, 0.603);
@@ -554,8 +554,6 @@ hr{
 	.prev:hover, .next:hover{
 		transition: .3s;
 		color: #ffffff; 
-  }
-  .contentp{
   }
   .content-pro{
     font-weight: 100px;
