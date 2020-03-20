@@ -505,7 +505,7 @@ hr{
 		padding-bottom: 28%;
 	  user-select: none;
 		background-color: rgba(3, 168, 245, 0.603);
-		border: solid 10px #616161;
+		/* border: solid 10px #616161; */
     border-radius:10px ; 
     text-align: center;
 	}
