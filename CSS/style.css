@@ -20,14 +20,14 @@ body,html {
   padding: 0%;
 }
 .logomain{
-  top: 50%;
-  left: 50%;
+  top: 22%;/*20*/
+  left: 49%;/*49*/
   transform: translate(-50% , -50%);
   background: url('Images/white\ logo.png') no-repeat center center ;
   background-size: 70%;
   position: absolute;
   height: 30%;
-  width: 100%;
+  width: 80%;
   
 }
 main {
@@ -439,21 +439,6 @@ hr{
     padding-right: 10%;
   }
 }
-.grid {
-  display: flex;                    
-  flex-wrap: wrap;
-  justify-content: space-around;
-  
-}
-.cell {
-  flex: 0 0 32%;
-  text-align: center;
-  margin-bottom: 1%;
-  background-color:  rgba(3, 168, 245, 0.603);
-  font-weight: 100;
-  font-size: 1.125rem;
-  line-height: 2;
-}
 .content-pro{
   font-weight: 100px;
   line-height: 20px;
@@ -490,23 +475,23 @@ hr{
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
-
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 #i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9{ display: none;}
 
 .container{
+  font-family: 'Roboto', sans-serif;
+
     z-index: 0;
 		margin: 0 auto;
 		margin-top: 20px;
 		position: relative;
-		width: 50%;
+		width: 40%;
 		height: 10%;
-		padding-bottom: 28%;
+		padding-bottom: 30%;
 	  user-select: none;
-		background-color: rgba(3, 168, 245, 0.603);
+		background-color: rgb(169,169,169);
 		/* border: solid 10px #616161; */
-    border-radius:10px ; 
+    border-radius:30px ; 
     text-align: center;
 	}
 
@@ -521,8 +506,7 @@ hr{
 	}
 
 	 .prev, .next{
-		font-family: 'Just Another Hand', cursive;
-     padding-left: 1%;
+    font-family: 'Roboto', sans-serif;
 		width: 6%;
 		height: inherit;
 		position: absolute;
@@ -549,11 +533,17 @@ hr{
 		transition: .3s;
 		color: #ffffff; 
   }
+  .content-aa{
+    z-index: -1;
+  }
+  @import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
   .content-pro{
-    font-weight: 100px;
-    line-height: 20px;
+    
+    font-family: 'EB Garamond', serif;
+    font-size: 200%;
+    line-height: 100%;
     text-align:justify;
-    padding:5%; 
+
   }
 .container #nav_slide{
 	width: 100%;
@@ -570,7 +560,6 @@ hr{
   width:70%;
 }
 #nav_slide .dots{
-	top: -5px;
 	width: 18px;
 	height: 18px;
 	margin: 0 4px;
@@ -623,12 +612,24 @@ hr{
 		width: 100%;
 		height: 30%;
 		padding-bottom: 55%; 
-	}	
-	
+  }	
+  .dots{
+    top: 300%;
+  }
+  .content-pro{
+    
+    font-family: 'EB Garamond', serif;
+    font-size: 100%;
+    line-height: 20px;
+    text-align:justify;
+    padding:5%; 
+    margin: 5%;
+
+  }
 	label span { font-size: 50pt; }
 	
 	.prev, .next{
-		width: 15%;
+		width: 6%;
 	}	
 	#nav_slide .dots{
 		width: 12px;
