@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
 
-body, html{
-		width: 100%;
-		height: 100%;	
-    margin: 0;
-		/* font-family: 'Just Another Hand', cursive; */
-    
-		overflow-X: hidden;/* optional */
-	}
 
 #i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9{ display: none;}
 
