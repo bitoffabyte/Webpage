@@ -718,7 +718,7 @@ hr{
 @media screen and (max-width: 1085px){
 	.container{
 		border: none;
-		width: 100%;
+		width: 90%;
 		height: 30%;
 		padding-bottom: 55%; 
   }	
