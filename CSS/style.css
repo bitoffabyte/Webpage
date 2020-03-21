@@ -118,7 +118,7 @@ body,html {
   padding: 0%;
 }
 .logomain{
-  top: 22%;/*20*/
+  top: 18%;/*20*/
   left: 49%;/*49*/
   transform: translate(-50% , -50%);
   background: url('Images/robologo_effect.png') no-repeat center center ;
@@ -145,8 +145,10 @@ main {
   height: 100vh;
   width: 100%;
   display: table;
-  background:white url('Images/light_dark_1.png') ;
-  background-size: cover;
+  background: url('Images/light_dark_1.png') no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;  background-size: cover;
 	background-repeat : no-repeat;
   transition: .33s ease all;
   border-radius:2px;
@@ -339,6 +341,16 @@ h1
         width: 50%;
         transition: .33s ease all
     }
+    .logomain{
+      top: 25%;/*20*/
+      left: 49%;/*49*/
+      transform: translate(-50% , -50%);
+      background: url('Images/robologo_effect.png') no-repeat center center ;
+      background-size: 101%;
+      position: absolute;
+      height: 30%;
+      width: 80%;
+    }
 }
         /*CSS for social media icons*/
 
@@ -505,7 +517,6 @@ hr{
 	width: 90%;
 	padding: 30px;
 	margin-top: -25px;
-	align: center;
 }
 .card_datails  h1 {
 	font-size: 30px;
