@@ -1,6 +1,6 @@
 
        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
-       @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+       @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
        
        *, *::after, *::before {
     transition: .33s ease all;
