@@ -83,6 +83,10 @@
   transform: rotateY(180deg) translateX(100%);
   cursor: pointer;
 }
+/*.myPre
+{
+  line
+}*/
 @media only screen and (max-width: 760px)
 {
   .card_flip
@@ -94,6 +98,10 @@
   {
     height: 200px;
     width: 300px;
+  }
+  .myPre
+  {
+    line-height: 10px;
   }
 }
 
@@ -113,7 +121,7 @@ body,html {
   top: 22%;/*20*/
   left: 49%;/*49*/
   transform: translate(-50% , -50%);
-  background: url('Images/robologo_grad.png') no-repeat center center ;
+  background: url('Images/robologo_effect.png') no-repeat center center ;
   background-size: 70%;
   position: absolute;
   height: 30%;
@@ -159,7 +167,7 @@ h1
   position: fixed;
   z-index: 4;
   top: 40px;
-  right: 3%;
+  right: 40px;
   height: 44px;
   width: 44px;
 
@@ -353,7 +361,7 @@ ul {
     margin: 0 auto;
     background: #322f30;
     color: #fff;
-    height: 400px;
+    height: 300px;
 text-align: center;
 }
 .social-icon {
@@ -513,9 +521,6 @@ hr{
 	font-weight: 100px;
 	line-height: 20px;
 	text-align:justify;
-	background-color: #A9A9A9;
-  	padding: 20px;
-  	border-radius: 25px;
 }
 @media only screen and (max-width: 760px) {
   .main_card
@@ -569,17 +574,17 @@ hr{
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 #i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9{ display: none;}
 
 .container{
-  font-family: 'Roboto', sans-serif;
+  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 0;
 		margin: 0 auto;
 		margin-top: 20px;
 		position: relative;
-		width: 40%;
+		width: 800px;
 		height: 10%;
 		padding-bottom: 30%;
 	  user-select: none;
@@ -630,11 +635,11 @@ hr{
   .content-aa{
     z-index: -1;
   }
-  @import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+ 
   .content-pro{
     
-    font-family: 'EB Garamond', serif;
-    font-size: 200%;
+   
+    font-size: 170%;
     line-height: 100%;
     text-align:justify;
 
