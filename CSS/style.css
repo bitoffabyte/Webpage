@@ -513,6 +513,9 @@ hr{
 	font-weight: 100px;
 	line-height: 20px;
 	text-align:justify;
+	background-color: #A9A9A9;
+  	padding: 20px;
+  	border-radius: 25px;
 }
 @media only screen and (max-width: 760px) {
   .main_card
