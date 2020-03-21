@@ -3,7 +3,7 @@
        @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
        
        *, *::after, *::before {
-    transition: .33s ease all;
+    /* transition: .33s ease all; */  /*this is messsing with the cards animation the cards animation is also lagging by .33 sec*/
     scroll-behavior: smooth;
     box-sizing:content-box;
 
@@ -118,14 +118,14 @@ body,html {
   padding: 0%;
 }
 .logomain{
-  top: 18%;/*20*/
+  top: 70%;/*20*/
   left: 49%;/*49*/
   transform: translate(-50% , -50%);
-  background: url('Images/robologo_effect.png') no-repeat center center ;
+  background: url('Images/logo.png') no-repeat center center ;
   background-size: 70%;
   position: absolute;
-  height: 30%;
-  width: 80%;
+  height: 150%;
+  width: 100%;
   
 }
 main {
@@ -145,7 +145,7 @@ main {
   height: 100vh;
   width: 100%;
   display: table;
-  background: url('Images/light_dark_1.png') no-repeat center center ; 
+  background: url('Images//back.png') no-repeat center center ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;  background-size: cover;
@@ -244,7 +244,7 @@ h1
   background: #1C1D21;
   opacity: 0;
   visibility: hidden;
-  transition: opacity .5s, visibility .5s;
+  /* transition: opacity .5s, visibility .5s; */
 }
 
 .nav-open .overlay {
@@ -341,16 +341,22 @@ h1
         width: 50%;
         transition: .33s ease all
     }
-    .logomain{
-      top: 25%;/*20*/
-      left: 49%;/*49*/
-      transform: translate(-50% , -50%);
-      background: url('Images/robologo_effect.png') no-repeat center center ;
-      background-size: 101%;
-      position: absolute;
-      height: 30%;
-      width: 80%;
-    }
+
+
+}
+@media only screen and (max-width: 600px) {
+  .logomain{
+    top: 50%;/*20*/
+    left: 49%;/*49*/
+    transform: translate(-50% , -50%);
+    background: url('Images/logo.png') no-repeat center center ;
+    background-size: 100%;
+    position: absolute;
+    height: 150%;
+    width: 100%;
+    
+  }
+
 }
         /*CSS for social media icons*/
 
@@ -762,7 +768,8 @@ hr{
 .content1{
   height:100%;
   width:100%;
-  background-image: url('Images/HOR.jpeg');
+
+  background-image: url('Images/HOR.jpeg')
   background-size: 100% auto;
 }
 .content2{
