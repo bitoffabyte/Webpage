@@ -722,6 +722,12 @@ hr{
 		height: 30%;
 		padding-bottom: 55%; 
   }	
+  .carhr{
+    border: 2px solid rgb(3, 116, 245);
+    border-radius: 0.08px;
+    width:50%;
+  }
+
   .dots{
     top: 300%;
   }
