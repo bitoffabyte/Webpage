@@ -575,7 +575,7 @@ hr{
 
 
 
-#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9{ display: none;}
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10{ display: none;}
 
 .container{
   
@@ -684,7 +684,9 @@ hr{
   #i6:checked ~ #six  ,
   #i7:checked ~ #seven ,
   #i8:checked ~ #eight ,
-  #i9:checked ~ #nine
+  #i9:checked ~ #nine ,
+  #i10:checked ~ #ten
+
   
 	{z-index: 10; animation: scroll .5s ease-in-out; color: black;}
 
@@ -696,7 +698,9 @@ hr{
   #i6:checked  ~  #nav_slide #dot6,
   #i7:checked  ~  #nav_slide #dot7,
   #i8:checked  ~  #nav_slide #dot8,
-  #i9:checked  ~  #nav_slide #dot9
+  #i9:checked  ~  #nav_slide #dot9 ,
+  #i10:checked  ~  #nav_slide #dot10
+
   
 	{ background-color: rgba(255,255,255,.9);}
 
