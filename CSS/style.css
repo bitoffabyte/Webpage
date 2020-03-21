@@ -891,7 +891,7 @@ hr{
   #l10:checked ~ #ten
 
   
-	{z-index: 10; animation: scroll .5s ease-in-out; color: black;}
+	{z-index: 10; color: black;}
 
 	#l1:checked  ~  #nav_slide #dot1,
 	#l2:checked  ~  #nav_slide #dot2,
