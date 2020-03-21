@@ -1,6 +1,6 @@
 
        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
-       @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+       @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
        
        *, *::after, *::before {
     transition: .33s ease all;
@@ -89,16 +89,6 @@
 }*/
 @media only screen and (max-width: 760px)
 {
-  .card_right
-	{
-		height: 200px;
-		width: 300px;
-	}
-  .card_left
-	{
-		height: 200px;
-		width: 300px;
-	}
   .card_flip
   {
     height: 200px;
@@ -117,7 +107,7 @@
 
 
 body,html {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Quicksand", sans-serif;
   line-height: 1;
   margin: 0;
   width: 100%;
@@ -532,7 +522,7 @@ hr{
 	line-height: 20px;
 	text-align:justify;
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1300px) {
   .main_card
 	{
     flex-direction:column;
@@ -554,11 +544,6 @@ hr{
   text-align:justify;
   padding:5%; 
 }
-/* hr{
-  border: 2px solid rgb(82, 255, 232);
-  border-radius: 0.08px;
-  width:70%;
-} */
 
 @media screen and (max-width: 600px) {
   
