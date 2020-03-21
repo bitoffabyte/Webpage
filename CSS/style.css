@@ -1,6 +1,6 @@
 
        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
-       @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+       @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
        
        *, *::after, *::before {
     transition: .33s ease all;
@@ -107,7 +107,7 @@
 
 
 body,html {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Abel', sans-serif;
   line-height: 1;
   margin: 0;
   width: 100%;
