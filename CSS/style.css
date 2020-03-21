@@ -522,7 +522,7 @@ hr{
 	line-height: 20px;
 	text-align:justify;
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 760px) {
   .main_card
 	{
     flex-direction:column;
