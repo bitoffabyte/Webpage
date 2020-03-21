@@ -1,5 +1,8 @@
 
-        *, *::after, *::before {
+       @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
+       @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+       
+       *, *::after, *::before {
     transition: .33s ease all;
     scroll-behavior: smooth;
     box-sizing:content-box;
@@ -53,7 +56,7 @@
   backface-visibility: hidden;
 }
 .front {
-  background-image:url("CSS/Images/ABC.jpeg" );
+  background-image:url("Images/about-us_edited.png" );
   display:-webkit-flex;
   display: flex;
   -webkit-justify-content: center;
@@ -95,15 +98,13 @@
 }
 
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 body,html {
   font-family: "Quicksand", sans-serif;
   line-height: 1;
   margin: 0;
   width: 100%;
   height: 100%;
-  background: rgba(212, 212, 212, 0.829);
+  background: whitesmoke;
   -webkit-font-smoothing: antialiased;
   transition: .33s ease all;
   padding: 0%;
@@ -112,7 +113,7 @@ body,html {
   top: 22%;/*20*/
   left: 49%;/*49*/
   transform: translate(-50% , -50%);
-  background: url('Images/white\ logo.png') no-repeat center center ;
+  background: url('Images/robologo_grad.png') no-repeat center center ;
   background-size: 70%;
   position: absolute;
   height: 30%;
@@ -136,7 +137,7 @@ main {
   height: 100vh;
   width: 100%;
   display: table;
-  background:white url('Images/Bg\ Dark.png') ;
+  background:white url('Images/light_dark_1.png') ;
   background-size: cover;
 	background-repeat : no-repeat;
   transition: .33s ease all;
