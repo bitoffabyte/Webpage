@@ -143,7 +143,7 @@ main {
 
 .intro {
   height: 100vh;
-  width: 125%;
+  width: 75%;
   display: table;
   background: url('Images/light_dark_1.png') no-repeat center center ; 
   -webkit-background-size: cover;
