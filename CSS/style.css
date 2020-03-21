@@ -607,9 +607,8 @@ hr{
 	 .prev, .next{
     font-family: 'Roboto', sans-serif;
 		width: 5%;
-		height: inherit;
 		position: absolute;
-		top:38%; 
+		top:87%; 
 		background-color: rgba(255, 255, 255, 0);
 		color:rgba(244, 244, 244, 0.637);
 		z-index: 99;
@@ -716,8 +715,6 @@ hr{
     top: 300%;
   }
   .content-pro{
-    
-    
     font-size: 100%;
     line-height: 20px;
     text-align:justify;
@@ -728,7 +725,8 @@ hr{
 	label span { font-size: 50pt; }
 	
 	.prev, .next{
-		width: 6%;
+    width: 8%;
+    top:90%;
 	}	
 	#nav_slide .dots{
 		width: 12px;
@@ -736,6 +734,6 @@ hr{
 	}
 }
 @media screen  and(min-width: 970px){
-	.me{ display: none;}
+	/* .me{ display: none;} */
 }
 
