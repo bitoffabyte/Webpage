@@ -542,7 +542,7 @@ hr{
 	margin-top: -25px;
 }
 .card_datails  h1 {
-	font-size: 35px;
+	font-size: 40px;
 }
 .card_right img {
 	height: 390px;
@@ -553,9 +553,9 @@ hr{
 }
 
 .disc {
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: 900px;
-	line-height: 20px;
+	line-height: 25px;
 	text-align:justify;
 }
 @media only screen and (max-width: 760px) {
