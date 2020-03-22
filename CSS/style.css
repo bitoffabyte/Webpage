@@ -346,10 +346,11 @@ h1
 }
 @media only screen and (max-width: 600px) {
   .logomain{
+    margin-top: 150px;
     top: 50%;/*20*/
     left: 49%;/*49*/
     transform: translate(-50% , -50%);
-    background: url('Images/logo.png') no-repeat center center ;
+    background: url('Images/Tree_1.png') no-repeat center center ;
     background-size: 100%;
     position: absolute;
     height: 150%;
@@ -794,7 +795,7 @@ hr{
   height:100%;
   width:100%;
 
-  background-image: url('Images/HOR.jpeg')
+  background-image: url('Images/HOR.jpeg');
   background-size: 100% auto;
 }
 .content2{
