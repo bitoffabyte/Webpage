@@ -1,5 +1,6 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
-@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
  *, *::after, *::before {
     /* transition: .33s ease all; */  /*this is messsing with the cards animation the cards animation is also lagging by .33 sec*/
   scroll-behavior: smooth;
@@ -13,7 +14,7 @@
 }
 
 /*CSS for flip card*/
-.container_flip {
+/*.container_flip {
   width: 600px;
   height: 340px;
   margin: 0 auto; 
@@ -103,10 +104,10 @@
   {
     line-height: 10px;
   }
-}
+}*/
 
 body,html {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   line-height: 1;
   margin: 0;
   width: 100%;
@@ -158,7 +159,6 @@ h1
 {
   text-align: center;
   color: inherit;
-  font-family: "Quicksand", sans-serif;
     font-size: 36px;
   
     
@@ -278,7 +278,7 @@ h1
   /*text-transform: uppercase;*/
   color: #AAAAAA;
   margin: 1.5em 0;
-  font-family: "Quicksand", sans-serif;
+ 
 }
 
 .nav {
@@ -291,7 +291,7 @@ h1
   padding: .4em 0;
   font-size: 25px;
   font-weight:lighter;
-  font-family: "Quicksand", sans-serif;
+ 
   color: white;
   transform: translateZ(0);
 }
@@ -379,7 +379,7 @@ ul {
     margin: 0 auto;
     background: #322f30;
     color: #fff;
-    height: 300px;
+    height: 320px;
 text-align: center;
 }
 .social-icon {
@@ -398,13 +398,14 @@ ul.social-icons {
     text-decoration: none;
 }
 .fa-facebook {
-    padding:10px 14px;
+    padding:8px 12px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 350px;
 }
 .fa-facebook:hover {
     background-color: #3d5b99;
@@ -417,6 +418,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 350px;
 }
 .fa-twitter:hover {
     background-color: #00aced;
@@ -430,6 +432,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 350px;
 }
 .fa-youtube:hover {
     background-color: #e64a41;
@@ -442,6 +445,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 350px;
 }
 .fa-linkedin:hover {
     background-color: #0073a4;
@@ -454,6 +458,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 350px;
 }
 .fa-github:hover {
     background-color: #5a32a3;
@@ -466,6 +471,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 350px;
 }
 .fa-instagram:hover {
      background-image: linear-gradient(rgb(96, 13, 228),rgb(255, 0, 221), yellow);
@@ -553,9 +559,9 @@ hr{
 }
 
 .disc {
-	font-size: 30px;
-	font-weight: 900px;
-	line-height: 25px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
 	text-align:justify;
 }
 @media only screen and (max-width: 760px) {
@@ -636,7 +642,7 @@ hr{
 	}
 
 	 .prev, .next{
-    font-family: 'Roboto', sans-serif;
+   
 		width: 5%;
 		position: absolute;
 		top:87%; 
