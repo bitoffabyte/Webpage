@@ -5,6 +5,13 @@
   scroll-behavior: smooth;
   box-sizing:content-box;
 }
+.qwerty,::selection{
+  text-decoration: none;
+  -moz-user-select: none; 
+    color: none;
+    background: none;
+}
+
 /*CSS for flip card*/
 .container_flip {
   width: 600px;
