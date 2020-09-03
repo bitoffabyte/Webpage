@@ -4,6 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RoboVITics - The official robotics club of VIT</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="stylesheet" href="CSS/style.css">
    </head>
 <body>
@@ -36,11 +39,11 @@
 
     </pre>
     <p id="Events"></p>
-    <h1>EVENTS</h1>
-    <hr></hr>
+    <h1 data-aos = "zoom-in">EVENTS</h1>
+    <hr data-aos = "zoom-in"></hr>
     <br><br><br>
     <div class="wrapper">
-      <div class="main_card">
+      <div class="main_card" data-aos = "fade-down">
         <div class="card_right">
           <div class="img_container">
             <img class="imag img-fluid robowars" src="CSS/Images/robowars_pic.png" alt="">
@@ -55,7 +58,7 @@
         </div>
 
       </div>
-      <div class="main_card">
+      <div class="main_card" data-aos = "fade-down">
         <div class="card_right">
           <div class="img_container">
               <img class=""src="CSS/Images/HOR.jpeg" alt="">
@@ -69,7 +72,7 @@
           </div>
         </div>
       </div>
-      <div class="main_card" >    
+      <div class="main_card" data-aos = "fade-down">    
         <div class="card_right">
           <div class="img_container">
             <img class="imag img-fluid"src="CSS/Images/MD.png" alt="">
@@ -83,7 +86,7 @@
           </div>
         </div>
       </div>
-     <div class="main_card">
+     <div class="main_card" data-aos = "fade-down" >
         <div class="card_right">
           <div class="img_container">
               <img class=""src="CSS/Images/cosmos_logo_sharp.png" alt="">
@@ -98,7 +101,7 @@
           </div>
         </div>
       </div>
-      <div class="main_card">
+      <div class="main_card" data-aos = "fade-down">
         <div class="card_right">
           <div class="img_container">
             <img class="imag img-fluid robowars" src="CSS/Images/vortex360_size.png" alt="">
@@ -114,7 +117,7 @@
         </div>
 
       </div>
-      <div class="main_card">
+      <div class="main_card" data-aos = "fade-down">
         <div class="card_right">
           <div class="img_container">
             <img class="imag img-fluid robowars"  src="CSS/Images/Logo_Equinox_white_bg (1).png" alt="">
@@ -130,13 +133,15 @@
 
       </div>
 </div>
-    <p id="Projects"></p>    
     <pre>
     
     </pre>
-    <h1> PROJECTS </h1>
-    <hr> 
-    <div class="container">
+
+        <p id="Projects"></p>    
+
+    <h1 data-aos = "zoom-in"> PROJECTS </h1>
+    <hr data-aos = "zoom-in"> 
+    <div class="container" data-aos = "fade-down">
         <input type="radio" id="i1" name="images" checked />
         <input type="radio" id="i2" name="images" />
         <input type="radio" id="i3" name="images" />
@@ -248,7 +253,7 @@
         </div>
         
         
-        <div id="nav_slide">
+        <div id="nav_slide" >
             <label for="i1" class="dots" id="dot1"></label>
             <label for="i2" class="dots" id="dot2"></label>
             <label for="i3" class="dots" id="dot3"></label>
@@ -271,13 +276,13 @@
           <pre>
           
           </pre>
-              <h1> OUTREACH </h1>
-              <hr>
+              <h1 data-aos = "zoom-in"> OUTREACH </h1>
+              <hr data-aos = "zoom-in">
        
               <pre>
                 
               </pre>
-              <div class="wrapper">
+              <div class="wrapper" data-aos = "fade-down">
               <div class="main_card">
                 <div class="card_right">
                   <div class="img_container">
@@ -302,13 +307,13 @@
     <pre>
     
     </pre>
-        <h1> ABOUT US </h1>
-        <hr>
+        <h1 data-aos = "zoom-in"> ABOUT US </h1>
+        <hr data-aos = "zoom-in">
  
         <pre>
           
         </pre>
-        <div class="wrapper aboutuscard">
+        <div class="wrapper aboutuscard" data-aos = "fade-down">
           <div class="">
           <img src="CSS/Images/about-us.jpg" alt="" class="abtimg"></div>
               <div class="card_datails about-det">
@@ -318,13 +323,13 @@
           </div>
                                
           <p id="Memories"></p>
-          <h1>Memories</h1>
-          <hr>
+          <h1 data-aos = "zoom-in">Memories</h1>
+          <hr data-aos = "zoom-in">
    
           <pre>
             
           </pre>
-          <div class="responsive-vid">
+          <div class="responsive-vid" data-aos = "fade-down">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/q84jLzwLLQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           
@@ -423,9 +428,9 @@ function toggleNavigation(event) {
   event.preventDefault();
   body.classList.toggle('nav-open');
 }
-      </script>
-    
-      
+      AOS.init({duration:1500,  delay: 10,once: true,
+});
+    </script>
 </body>
 
 </html>

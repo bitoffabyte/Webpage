@@ -2,18 +2,21 @@
     width: 80%;
     margin: auto;
     height: auto;
+    display: flex;
+    text-align: center;
 }
 
 .view {
-    margin: 10px;
+    margin: auto;
     overflow: hidden;
     position: relative;
     text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-    width: 20%;
+    width: 100%;
 }
-
+.yeet {
+    margin: auto;
+}
 .view .mask,
 .view .content {
     width: 100%;
@@ -76,7 +79,7 @@
 
 .view-first .mask {
     opacity: 0;
-    background-color: rgba(1, 14, 132, 0.44);
+    background-color: rgba(72, 96, 119, 0.44);
     transition: all 0.4s ease-in-out;
 }
 
@@ -139,5 +142,11 @@
 @media only all and (max-width: 768px) {
     .view {
         width: 90%;
+    }
+    .wrapper1 {
+        flex-direction: column;
+    }
+    .yeet {
+        margin: 10% auto;
     }
 }
