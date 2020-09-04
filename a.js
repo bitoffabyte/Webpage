@@ -4,12 +4,15 @@ const right = document.querySelector('.right');
 const cont1 = document.querySelector('.cont1');
 const cont2 = document.querySelector('.cont2');
 const cont3 = document.querySelector('.cont3');
+let s = left.offsetWidth;
 left.addEventListener('mouseover', () => {
     let opacity = 1;
     left.style.width = '100%';
     cent.style.width = '0%';
     right.style.width = '0%';
     cont1.style.opacity = 1;
+    document.querySelectorAll('.imgimg')[1].style.width = 0;
+    document.querySelectorAll('.imgimg')[2].style.width = 0;
     document.querySelectorAll('.imgimg')[0].style.opacity = 0;
 });
 left.addEventListener('mouseout', () => {
@@ -17,6 +20,8 @@ left.addEventListener('mouseout', () => {
     cent.style.width = '33.333%';
     right.style.width = '33.333%';
     cont1.style.opacity = 0;
+    document.querySelectorAll('.imgimg')[1].style.width = s;
+    document.querySelectorAll('.imgimg')[2].style.width = s;
     document.querySelectorAll('.imgimg')[0].style.opacity = 1;
 });
 
@@ -25,6 +30,8 @@ cent.addEventListener('mouseover', () => {
     left.style.width = '0%';
     right.style.width = '0%';
     cont2.style.opacity = 1;
+    document.querySelectorAll('.imgimg')[0].style.width = 0;
+    document.querySelectorAll('.imgimg')[2].style.width = 0;
     document.querySelectorAll('.imgimg')[1].style.opacity = 0;
 });
 cent.addEventListener('mouseout', () => {
@@ -32,6 +39,8 @@ cent.addEventListener('mouseout', () => {
     left.style.width = '33.333%';
     right.style.width = '33.333%';
     cont2.style.opacity = 0;
+    document.querySelectorAll('.imgimg')[0].style.width = s;
+    document.querySelectorAll('.imgimg')[2].style.width = s;
     document.querySelectorAll('.imgimg')[1].style.opacity = 1;
 });
 
@@ -40,6 +49,8 @@ right.addEventListener('mouseover', () => {
     cent.style.width = '0%';
     left.style.width = '0%';
     cont3.style.opacity = 1;
+    document.querySelectorAll('.imgimg')[0].style.width = 0;
+    document.querySelectorAll('.imgimg')[1].style.width = 0;
     document.querySelectorAll('.imgimg')[2].style.opacity = 0;
 });
 right.addEventListener('mouseout', () => {
@@ -47,6 +58,8 @@ right.addEventListener('mouseout', () => {
     cent.style.width = '33.333%';
     left.style.width = '33.333%';
     cont3.style.opacity = 0;
+    document.querySelectorAll('.imgimg')[0].style.width = s;
+    document.querySelectorAll('.imgimg')[1].style.width = s;
     document.querySelectorAll('.imgimg')[2].style.opacity = 1;
 });
 
@@ -105,3 +118,7 @@ document.querySelectorAll('.mask')[2].style.left =
     document.querySelector('.iimmgg').offsetLeft -
     document.querySelector('.iimmgg').offsetLeft * 0.1 +
     'px';
+
+document.querySelectorAll('.imgimg')[0].style.width = s;
+document.querySelectorAll('.imgimg')[1].style.width = s;
+document.querySelectorAll('.imgimg')[2].style.width = s;
