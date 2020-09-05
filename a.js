@@ -66,16 +66,19 @@ right.addEventListener('mouseout', () => {
 document.querySelector('.info1').onclick = () => {
     document.querySelector('.pop').classList.toggle('focus');
     document.querySelector('.hor').style.display = 'block';
+    document.querySelector('body').style.overflow = 'hidden';
 };
 
 document.querySelector('.info2').onclick = () => {
     document.querySelector('.pop').classList.toggle('focus');
     document.querySelector('.md').style.display = 'block';
+    document.querySelector('body').style.overflow = 'hidden';
 };
 
 document.querySelector('.info3').onclick = () => {
     document.querySelector('.pop').classList.toggle('focus');
     document.querySelector('.Equinox').style.display = 'block';
+    document.querySelector('body').style.overflow = 'hidden';
 };
 
 document.querySelector('.close').onclick = () => {
@@ -83,6 +86,7 @@ document.querySelector('.close').onclick = () => {
     document.querySelector('.Equinox').style.display = 'none';
     document.querySelector('.md').style.display = 'none';
     document.querySelector('.hor').style.display = 'none';
+    document.querySelector('body').style.overflow = 'auto';
 };
 
 console.log(screen.height);

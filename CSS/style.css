@@ -1058,6 +1058,7 @@ body {
     transition: all 1s;
     color: rgb(179, 189, 245);
     z-index: 100000000;
+    overflow: auto;
 }
 .focus {
     transform: translateY(0%);
