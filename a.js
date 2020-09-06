@@ -13,7 +13,8 @@ left.addEventListener('mouseover', () => {
     cont1.style.opacity = 1;
     document.querySelectorAll('.imgimg')[1].style.width = 0;
     document.querySelectorAll('.imgimg')[2].style.width = 0;
-    document.querySelectorAll('.imgimg')[0].style.opacity = 0;
+    // document.querySelectorAll('.imgimg')[0].style.opacity = 0;
+    document.querySelector('.cent').style.border = 'none';
 });
 left.addEventListener('mouseout', () => {
     left.style.width = '33.333%';
@@ -23,6 +24,8 @@ left.addEventListener('mouseout', () => {
     document.querySelectorAll('.imgimg')[1].style.width = s;
     document.querySelectorAll('.imgimg')[2].style.width = s;
     document.querySelectorAll('.imgimg')[0].style.opacity = 1;
+    document.querySelector('.cent').style.borderRight = '#696969 5px solid';
+    document.querySelector('.cent').style.borderLeft = '#696969 5px solid';
 });
 
 cent.addEventListener('mouseover', () => {
@@ -32,7 +35,8 @@ cent.addEventListener('mouseover', () => {
     cont2.style.opacity = 1;
     document.querySelectorAll('.imgimg')[0].style.width = 0;
     document.querySelectorAll('.imgimg')[2].style.width = 0;
-    document.querySelectorAll('.imgimg')[1].style.opacity = 0;
+    // document.querySelectorAll('.imgimg')[1].style.opacity = 0;
+    document.querySelector('.cent').style.border = 'none';
 });
 cent.addEventListener('mouseout', () => {
     cent.style.width = '33.333%';
@@ -42,6 +46,8 @@ cent.addEventListener('mouseout', () => {
     document.querySelectorAll('.imgimg')[0].style.width = s;
     document.querySelectorAll('.imgimg')[2].style.width = s;
     document.querySelectorAll('.imgimg')[1].style.opacity = 1;
+    document.querySelector('.cent').style.borderRight = '#696969 5px solid';
+    document.querySelector('.cent').style.borderLeft = '#696969 5px solid';
 });
 
 right.addEventListener('mouseover', () => {
@@ -51,7 +57,8 @@ right.addEventListener('mouseover', () => {
     cont3.style.opacity = 1;
     document.querySelectorAll('.imgimg')[0].style.width = 0;
     document.querySelectorAll('.imgimg')[1].style.width = 0;
-    document.querySelectorAll('.imgimg')[2].style.opacity = 0;
+    // document.querySelectorAll('.imgimg')[2].style.opacity = 0;
+    document.querySelector('.cent').style.border = 'none';
 });
 right.addEventListener('mouseout', () => {
     right.style.width = '33.333%';
@@ -61,37 +68,48 @@ right.addEventListener('mouseout', () => {
     document.querySelectorAll('.imgimg')[0].style.width = s;
     document.querySelectorAll('.imgimg')[1].style.width = s;
     document.querySelectorAll('.imgimg')[2].style.opacity = 1;
+    document.querySelector('.cent').style.borderRight = '#696969 5px solid';
+    document.querySelector('.cent').style.borderLeft = '#696969 5px solid';
 });
 
 document.querySelector('.info1').onclick = () => {
-    document.querySelector('.pop').classList.toggle('focus');
+    document.querySelector('.pop').style.opacity = '1';
+    document.querySelector('.pop').style.height = '80%';
+    document.querySelector('.pop').style.width = '80%';
+
     document.querySelector('.hor').style.display = 'block';
     document.querySelector('body').style.overflow = 'hidden';
 };
 
 document.querySelector('.info2').onclick = () => {
-    document.querySelector('.pop').classList.toggle('focus');
+    document.querySelector('.pop').style.opacity = '1';
+    document.querySelector('.pop').style.height = '80%';
+    document.querySelector('.pop').style.width = '80%';
     document.querySelector('.md').style.display = 'block';
     document.querySelector('body').style.overflow = 'hidden';
 };
 
 document.querySelector('.info3').onclick = () => {
-    document.querySelector('.pop').classList.toggle('focus');
+    document.querySelector('.pop').style.opacity = '1';
+    document.querySelector('.pop').style.height = '80%';
+    document.querySelector('.pop').style.width = '80%';
     document.querySelector('.Equinox').style.display = 'block';
     document.querySelector('body').style.overflow = 'hidden';
 };
 
 document.querySelector('.close').onclick = () => {
-    document.querySelector('.pop').classList.toggle('focus');
+    // document.querySelector('.pop').style.display = 'none';
     document.querySelector('.Equinox').style.display = 'none';
     document.querySelector('.md').style.display = 'none';
     document.querySelector('.hor').style.display = 'none';
     document.querySelector('body').style.overflow = 'auto';
+
+    document.querySelector('.pop').style.opacity = '0';
+    document.querySelector('.pop').style.height = '0%';
+    document.querySelector('.pop').style.width = '0%';
 };
 
 console.log(screen.height);
-document.querySelector('.pop').style.height = screen.height * 0.8 + 'px';
-document.querySelector('.pop').style.top = screen.height * 0.05 + 'px';
 
 document.querySelectorAll('.mask')[0].style.width =
     document.querySelector('.iimmgg').offsetHeight +

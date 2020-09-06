@@ -890,13 +890,14 @@ body {
     height: 50%;
     display: flex;
     margin: auto;
+    border: #696969 8px solid;
 }
 .aa {
     width: 33.333333%;
     height: 100%;
 }
 .left {
-    background-color: white;
+    background-color: #fbfbfb;
     transition: all 1s;
     background-size: cover;
     background-color: white;
@@ -905,6 +906,8 @@ body {
     background-color: #c8c6c6;
     transition: all 1s;
     background-size: cover;
+    border-left: #696969 5px solid;
+    border-right: #696969 5px solid;
 }
 .right {
     background-color: white;
@@ -926,8 +929,8 @@ body {
     height: auto;
     text-align: center;
     display: none;
+    border: #000 5px solid;
 }
-
 .view {
     margin: auto;
     overflow: hidden;
@@ -939,16 +942,6 @@ body {
 .yeet {
     margin: auto;
     margin: 10% auto;
-}
-.view .mask,
-.view .content {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    margin: auto;
-    overflow: hidden;
-    top: 0;
-    /* left: 20%; */
 }
 
 .view img {
@@ -962,18 +955,12 @@ body {
 .view h2 {
     text-transform: uppercase;
     color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 17px;
-    font-family: Raleway, serif;
+    /* font-size: 20px; */
     padding: 10px;
     margin: 20px 0 0 0;
 }
 
 .view p {
-    font-family: Merriweather, serif;
-    font-style: italic;
-    font-size: 14px;
     position: relative;
     color: #fff;
     padding: 0px 20px 0px;
@@ -1049,29 +1036,19 @@ body {
 }
 
 .pop {
-    width: 90%;
-    height: 90%;
-    background-color: #000;
+    width: 0%;
+    height: 0%;
     position: fixed;
-    left: 5%;
-    transform: translateY(-200%);
-    transition: all 1s;
-    color: rgb(179, 189, 245);
-    z-index: 100000000;
-    overflow: auto;
+    top: 10%;
+    left: 10%;
+    z-index: 10000;
+    /* display: none; */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    background: #1c1d21ef;
+    color: rgb(212, 236, 241);
 }
-.focus {
-    transform: translateY(0%);
-    transition: all 1s;
-}
-@media screen and (max-width: 1200px) {
-    .wrapper1 {
-        display: block;
-    }
-    .abc {
-        display: none;
-    }
-}
+
 .event-det {
     position: absolute;
     width: 100%;
@@ -1093,4 +1070,65 @@ body {
 }
 .imgimg {
     transition: all 1s;
+}
+.cont p {
+    transition: all 1s;
+}
+
+.myButton {
+    box-shadow: inset 0px -3px 7px 0px #29bbff;
+    background: linear-gradient(to bottom, #2ec0f5 5%, #0688fa 100%);
+    background-color: #2ec0f5;
+    border-radius: 3px;
+    border: 1px solid #0b0e07;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 9px 23px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+    position: absolute;
+    top: 60%;
+    left: 59%;
+}
+.myButton:hover {
+    background: linear-gradient(to bottom, #0688fa 5%, #2ec0f5 100%);
+    background-color: #0688fa;
+}
+.myButton:active {
+    /* position: relative; */
+    /* top: 1px; */
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper1 {
+        display: block;
+    }
+    .abc {
+        display: none;
+    }
+    .myButton {
+        position: relative;
+        margin: auto;
+        left: 29%;
+        margin-top: 10%;
+    }
+}
+
+.view .mask,
+.view .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    overflow: hidden;
+    top: 0;
+    /* left: 20%; */
+    font-family: 'Quicksand', sans-serif;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
 }
