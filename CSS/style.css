@@ -1089,9 +1089,7 @@ body {
     padding: 9px 23px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #263666;
-    position: absolute;
-    top: 60%;
-    left: 59%;
+    position: relative;
 }
 .myButton:hover {
     background: linear-gradient(to bottom, #0688fa 5%, #2ec0f5 100%);
@@ -1132,4 +1130,11 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
+}
+
+@media screen and (max-height: 550px) {
+    .cont p {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
 }

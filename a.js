@@ -111,36 +111,6 @@ document.querySelector('.close').onclick = () => {
 
 console.log(screen.height);
 
-document.querySelectorAll('.mask')[0].style.width =
-    document.querySelector('.iimmgg').offsetHeight +
-    document.querySelector('.iimmgg').offsetHeight * 0.66 +
-    'px';
-
-document.querySelectorAll('.mask')[0].style.left =
-    document.querySelector('.iimmgg').offsetLeft -
-    document.querySelector('.iimmgg').offsetLeft * 0.1 +
-    'px';
-
-document.querySelectorAll('.mask')[1].style.width =
-    document.querySelector('.iimmgg').offsetHeight +
-    document.querySelector('.iimmgg').offsetHeight * 0.66 +
-    'px';
-
-document.querySelectorAll('.mask')[1].style.left =
-    document.querySelector('.iimmgg').offsetLeft -
-    document.querySelector('.iimmgg').offsetLeft * 0.1 +
-    'px';
-
-document.querySelectorAll('.mask')[2].style.width =
-    document.querySelector('.iimmgg').offsetHeight +
-    document.querySelector('.iimmgg').offsetHeight * 0.66 +
-    'px';
-
-document.querySelectorAll('.mask')[2].style.left =
-    document.querySelector('.iimmgg').offsetLeft -
-    document.querySelector('.iimmgg').offsetLeft * 0.1 +
-    'px';
-
 document.querySelectorAll('.imgimg')[0].style.width = s;
 document.querySelectorAll('.imgimg')[1].style.width = s;
 document.querySelectorAll('.imgimg')[2].style.width = s;
