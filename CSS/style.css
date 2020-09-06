@@ -1105,6 +1105,7 @@ body {
 @media screen and (max-width: 1200px) {
     .wrapper1 {
         display: block;
+        border: none;
     }
     .abc {
         display: none;
