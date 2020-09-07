@@ -1301,3 +1301,13 @@ h2 {
         margin: 5%;
     }
 }
+
+@media screen and (max-width: 280px) {
+    .abtimg {
+        width: 100%;
+    }
+
+    .qwerty {
+        height: auto;
+    }
+}
