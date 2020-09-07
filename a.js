@@ -4,7 +4,6 @@ const right = document.querySelector('.right');
 const cont1 = document.querySelector('.cont1');
 const cont2 = document.querySelector('.cont2');
 const cont3 = document.querySelector('.cont3');
-let s = left.offsetWidth;
 left.addEventListener('mouseover', () => {
     let opacity = 1;
     left.style.width = '100%';
@@ -97,7 +96,29 @@ document.querySelector('.info3').onclick = () => {
     document.querySelector('body').style.overflow = 'hidden';
 };
 
-document.querySelector('.close').onclick = () => {
+document.querySelectorAll('.close')[0].onclick = () => {
+    // document.querySelector('.pop').style.display = 'none';
+    document.querySelector('.Equinox').style.display = 'none';
+    document.querySelector('.md').style.display = 'none';
+    document.querySelector('.hor').style.display = 'none';
+    document.querySelector('body').style.overflow = 'auto';
+
+    document.querySelector('.pop').style.opacity = '0';
+    document.querySelector('.pop').style.height = '0%';
+    document.querySelector('.pop').style.width = '0%';
+};
+document.querySelectorAll('.close')[1].onclick = () => {
+    // document.querySelector('.pop').style.display = 'none';
+    document.querySelector('.Equinox').style.display = 'none';
+    document.querySelector('.md').style.display = 'none';
+    document.querySelector('.hor').style.display = 'none';
+    document.querySelector('body').style.overflow = 'auto';
+
+    document.querySelector('.pop').style.opacity = '0';
+    document.querySelector('.pop').style.height = '0%';
+    document.querySelector('.pop').style.width = '0%';
+};
+document.querySelectorAll('.close')[2].onclick = () => {
     // document.querySelector('.pop').style.display = 'none';
     document.querySelector('.Equinox').style.display = 'none';
     document.querySelector('.md').style.display = 'none';
@@ -110,7 +131,7 @@ document.querySelector('.close').onclick = () => {
 };
 
 console.log(screen.height);
-
+let s = left.offsetWidth;
 document.querySelectorAll('.imgimg')[0].style.width = s;
 document.querySelectorAll('.imgimg')[1].style.width = s;
 document.querySelectorAll('.imgimg')[2].style.width = s;
