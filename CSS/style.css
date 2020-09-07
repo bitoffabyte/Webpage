@@ -1047,6 +1047,7 @@ body {
     transition: opacity 0.5s ease-in-out;
     background: #1c1d21ef;
     color: rgb(212, 236, 241);
+    border-radius: 20px;
 }
 
 .event-det {
