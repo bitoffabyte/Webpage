@@ -388,7 +388,7 @@ a {
     color: #fff;
 }
 
-p>a:hover {
+p > a:hover {
     color: #d9d9d9;
     text-decoration: underline;
 }
@@ -514,9 +514,11 @@ ul.social-icons {
 }
 
 .fa-instagram:hover {
-    background-image: linear-gradient(rgb(96, 13, 228),
-            rgb(255, 0, 221),
-            yellow);
+    background-image: linear-gradient(
+        rgb(96, 13, 228),
+        rgb(255, 0, 221),
+        yellow
+    );
     transition: 0.5s;
 }
 
@@ -533,9 +535,7 @@ ul.social-icons {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(3,
-            168,
-            245);
+    background: rgb(3, 168, 245);
     /*change this for the color of the scroll bar*/
     border-radius: 1px;
 }
@@ -778,31 +778,31 @@ hr {
     color: rgba(255, 255, 255, 0);
 }
 
-#i1:checked~#one,
-#i2:checked~#two,
-#i3:checked~#three,
-#i4:checked~#four,
-#i5:checked~#five,
-#i6:checked~#six,
-#i7:checked~#seven,
-#i8:checked~#eight,
-#i9:checked~#nine,
-#i10:checked~#ten {
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five,
+#i6:checked ~ #six,
+#i7:checked ~ #seven,
+#i8:checked ~ #eight,
+#i9:checked ~ #nine,
+#i10:checked ~ #ten {
     z-index: 2;
     animation: scroll 1ms ease-in-out;
     color: black;
 }
 
-#i1:checked~#nav_slide #dot1,
-#i2:checked~#nav_slide #dot2,
-#i3:checked~#nav_slide #dot3,
-#i4:checked~#nav_slide #dot4,
-#i5:checked~#nav_slide #dot5,
-#i6:checked~#nav_slide #dot6,
-#i7:checked~#nav_slide #dot7,
-#i8:checked~#nav_slide #dot8,
-#i9:checked~#nav_slide #dot9,
-#i10:checked~#nav_slide #dot10 {
+#i1:checked ~ #nav_slide #dot1,
+#i2:checked ~ #nav_slide #dot2,
+#i3:checked ~ #nav_slide #dot3,
+#i4:checked ~ #nav_slide #dot4,
+#i5:checked ~ #nav_slide #dot5,
+#i6:checked ~ #nav_slide #dot6,
+#i7:checked ~ #nav_slide #dot7,
+#i8:checked ~ #nav_slide #dot8,
+#i9:checked ~ #nav_slide #dot9,
+#i10:checked ~ #nav_slide #dot10 {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -899,30 +899,30 @@ hr {
     background-size: 100% auto;
 }
 
-#l1:checked~#one,
-#l2:checked~#two,
-#l3:checked~#three,
-#l4:checked~#four,
-#l5:checked~#five,
-#l6:checked~#six,
-#l7:checked~#seven,
-#l8:checked~#eight,
-#l9:checked~#nine,
-#l10:checked~#ten {
+#l1:checked ~ #one,
+#l2:checked ~ #two,
+#l3:checked ~ #three,
+#l4:checked ~ #four,
+#l5:checked ~ #five,
+#l6:checked ~ #six,
+#l7:checked ~ #seven,
+#l8:checked ~ #eight,
+#l9:checked ~ #nine,
+#l10:checked ~ #ten {
     z-index: 10;
     color: black;
 }
 
-#l1:checked~#nav_slide #dot1,
-#l2:checked~#nav_slide #dot2,
-#l3:checked~#nav_slide #dot3,
-#l4:checked~#nav_slide #dot4,
-#l5:checked~#nav_slide #dot5,
-#l6:checked~#nav_slide #dot6,
-#l7:checked~#nav_slide #dot7,
-#l8:checked~#nav_slide #dot8,
-#l9:checked~#nav_slide #dot9,
-#l10:checked~#nav_slide #dot10 {
+#l1:checked ~ #nav_slide #dot1,
+#l2:checked ~ #nav_slide #dot2,
+#l3:checked ~ #nav_slide #dot3,
+#l4:checked ~ #nav_slide #dot4,
+#l5:checked ~ #nav_slide #dot5,
+#l6:checked ~ #nav_slide #dot6,
+#l7:checked ~ #nav_slide #dot7,
+#l8:checked ~ #nav_slide #dot8,
+#l9:checked ~ #nav_slide #dot9,
+#l10:checked ~ #nav_slide #dot10 {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -997,9 +997,9 @@ body {
 }
 
 .cont {
-    width: 100%;
-    height: 100%;
-    transition: all 1s;
+    width: 0%;
+    height: 0%;
+    transition: all 0.2s;
     opacity: 0;
     position: relative;
     top: -100%;
@@ -1097,7 +1097,8 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-.view-first:hover img {}
+.view-first:hover img {
+}
 
 .view-first:hover .mask {
     opacity: 1;
@@ -1133,6 +1134,9 @@ body {
     border-radius: 20px;
 }
 
+.cont {
+}
+
 .popc {
     text-align: justify;
 }
@@ -1145,7 +1149,6 @@ body {
 }
 
 @media screen and (max-width: 465px) {
-
     .view .mask,
     .view .content {
         width: 100% !important;
@@ -1195,7 +1198,6 @@ body {
     /* top: 1px; */
 }
 
-
 .myButton1 {
     box-shadow: inset 0px -3px 7px 0px #29bbff;
     background: linear-gradient(to bottom, #2ec0f5 5%, #0688fa 100%);
@@ -1232,8 +1234,6 @@ body {
     .abc {
         display: none;
     }
-
-
 }
 
 .view .mask,
@@ -1259,13 +1259,12 @@ body {
     }
 }
 
-
 h2 {
     font-family: 'Quicksand', sans-serif !important;
     line-height: 30px;
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1200px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1200px) {
     .mask h2 {
         font-size: 100px;
         line-height: 100px;
@@ -1289,7 +1288,6 @@ h2 {
     .pop p {
         font-size: 30px;
     }
-
 }
 
 @media screen and (max-width: 750px) {
