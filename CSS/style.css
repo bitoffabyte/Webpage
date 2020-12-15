@@ -136,7 +136,7 @@ html {
     height: 100%;
     padding: 0;
     margin: 0;
-    background: url('Images//back.png') no-repeat center center;
+    background: url('Images//back2.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -174,7 +174,7 @@ main {
     height: 100%;
     width: 100%;
     display: table;
-    background: url('Images//back.png') no-repeat center center;
+    background: url('Images//back2.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
